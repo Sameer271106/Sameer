@@ -1,0 +1,175 @@
+/* ====== Government Website Inspired Theme ====== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #222;
+}
+
+/* Header */
+header {
+  background-color: #00205b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 5px solid #ff9933;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-left img {
+  width: 50px;
+}
+
+.header-left h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.header-left p {
+  margin: 0;
+  font-size: 12px;
+  color: #ffd580;
+}
+
+.header-right button {
+  background: #ff9933;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  margin-left: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.header-right button:hover {
+  background: #e58200;
+}
+
+/* Sections */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+/* Forms */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  border: 1px solid #ccc;
+  border-top: 5px solid #00205b;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.form-row {
+  margin: 10px 0;
+  text-align: left;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: none;
+  height: 60px;
+}
+
+.submit-btn {
+  background: #007b5f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #005f46;
+}
+
+/* Captcha */
+.captcha {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#captchaText {
+  font-weight: bold;
+  background: #ff9933;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+#refreshCaptcha {
+  border: none;
+  background: #00205b;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.banner {
+  max-width: 80%;
+  margin-top: 20px;
+  border: 3px solid #00205b;
+  border-radius: 6px;
+}
+
+/* Admin Dashboard */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th {
+  background: #00205b;
+  color: white;
+}
+
+footer {
+  background: #00205b;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 13px;
+  border-top: 5px solid #ff9933;
+}
